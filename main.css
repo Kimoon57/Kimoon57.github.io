@@ -1,0 +1,71 @@
+html {
+  background-color: white;
+}
+
+body {
+  margin-left: 25%;
+  width: 1024px;
+  height: 1024px;
+  background-color: bisque;
+  border: 3px solid black;
+}
+
+figure {
+  font-style: italic;
+  font-size: 15px;
+}
+
+header {
+  border-bottom: 3px solid black;
+  height: 336px;
+}
+
+header figure {
+  width: 256px;
+  float: right;
+}
+
+header p:last-of-type {
+  margin: 60px 20px;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p,
+ul {
+  font-size: 18px;
+}
+
+header p:first-of-type,
+h1,
+ul {
+  margin-left: 20px;
+}
+
+.sec1 {
+  width: 512px;
+  float: left;
+}
+
+.sec2 {
+  width: 512px;
+  float: right;
+  margin-top: -12px;
+}
+
+section h2,
+h2 + div {
+  font-style: italic;
+  margin-left: 20px;
+}
+
+section div {
+  font-size: 18px;
+}
+
+section h2 {
+  font-size: 30px;
+}
